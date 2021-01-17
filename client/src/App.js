@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="main">
       <header className="main-header">I am the header</header>
-      <body>I am the body</body>
+      <main>I am the body</main>
       <footer>I am the footer</footer>
     </div>
   );
