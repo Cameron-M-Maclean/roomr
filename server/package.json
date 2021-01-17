@@ -4,5 +4,16 @@
     "express": "^4.17.1",
     "mongodb": "^3.6.3",
     "nodemon": "^2.0.7"
-  }
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "seeds": "mongo < ./db/seeds.js"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
