@@ -23,8 +23,12 @@ function Homepage () {
             <Body/>
           </section>
           <section id="homepage-sections">
-            <StudentSection/>
-            <LandlordSection/>
+            <div id="homepage-student-section">
+              <StudentSection/>
+            </div>
+            <div id="homepage-landlord-section">
+              <LandlordSection/>
+            </div>
           </section>
         </div>
         <div id="homepage-footer">

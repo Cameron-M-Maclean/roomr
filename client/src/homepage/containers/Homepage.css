@@ -13,26 +13,37 @@
 #homepage-main-section {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   border: solid black 2px;
   width: 100%;
-  height: auto;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 #homepage-body {
   border: solid black 2px;
+  padding: 20px;
   margin: 20px;
 }
 
 #homepage-sections {
   border: solid black 2px;
+  padding: 20px;
   margin: 20px;
 }
 
+#homepage-student-section {
+  padding: 20px;
+  border: black solid 2px;
+}
+
+#homepage-landlord-section {
+  padding: 20px;
+  border: black solid 2px;
+}
+
 #homepage-footer {
-  position: absolute;
-  bottom: 0;
   border: solid black 2px;
   width: 100%;
   height: 100px;
+  margin: 10px;
 }
