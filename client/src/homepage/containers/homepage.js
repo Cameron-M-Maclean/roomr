@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Body from '../components/Body';
-import Students from '../components/Students';
-import Landlords from '../components/Landlords';
+import StudentSection from '../components/StudentSection';
+import LandlordSection from '../components/LandlordSection';
 import Footer from '../components/Footer';
 
 function Homepage () {
@@ -9,7 +9,13 @@ function Homepage () {
 
 
   return (
-    <Header/>
+    <>
+      <Header/>
+      <Body/>
+      <StudentSection/>
+      <LandlordSection/>
+      <Footer/>
+    </>
   )
 }
 
