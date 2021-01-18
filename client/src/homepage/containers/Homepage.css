@@ -1,0 +1,38 @@
+#homepage {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  min-height: 100vh;
+}
+
+#homepage-header {
+  border: solid black 2px;
+  width: 100%;
+}
+
+#homepage-main-section {
+  display: flex;
+  justify-content: space-around;
+  border: solid black 2px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+#homepage-body {
+  border: solid black 2px;
+  margin: 20px;
+}
+
+#homepage-sections {
+  border: solid black 2px;
+  margin: 20px;
+}
+
+#homepage-footer {
+  position: absolute;
+  bottom: 0;
+  border: solid black 2px;
+  width: 100%;
+  height: 100px;
+}
