@@ -1,12 +1,13 @@
 import './App.css';
+import React, {useState} from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Homepage from './homepage/containers/Homepage';
 
 function App() {
   return (
-    <div>
-      <header>I am the header</header>
-      <main>I am the body</main>
-      <footer>I am the footer</footer>
-    </div>
+    <>
+      <Homepage/>
+    </>
   );
 }
 

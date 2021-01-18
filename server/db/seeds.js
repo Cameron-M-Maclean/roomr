@@ -25,7 +25,7 @@ db.users.insertMany(
       {
         landlordName: "Mark Maclean",
         homeAddress:"16 Mortonhall Road",
-        address: "56/2 Spottiswoode Street",
+        letAddress: "56/2 Spottiswoode Street",
         postcode: "EH9 1DH",
         hmo: true,
         bedrooms: 4
@@ -33,7 +33,7 @@ db.users.insertMany(
       {
         landlordName: "Anna Maclean",
         homeAddress:"16 Mortonhall Road",
-        address: "16 Mortonhall Road",
+        letAddress: "16 Mortonhall Road",
         postcode: "EH9 2HW",
         hmo: false,
         bedrooms: 4 
