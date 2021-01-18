@@ -7,34 +7,34 @@ db.users.insertMany(
   {
     lessees: [
       {
-        firstName: "Cameron",
-        lastName: "Maclean", 
-        studentId: 51337402,
-        university: "University of Edinburgh",
+        firstName: "Tenant",
+        lastName: "NumberOne", 
+        studentId: 0001,
+        university: "University One",
         yearOfStudy: 3
       },
       {
-        firstName: "Emily",
-        lastName: "Doran", 
-        studentId: 51323402,
-        university: "Napier University",
+        firstName: "Tenant",
+        lastName: "NumberTwo", 
+        studentId: 0002,
+        university: "University Two",
         yearOfStudy: 2
       }
     ],
     properties: [
       {
-        landlordName: "Mark Maclean",
-        homeAddress:"16 Mortonhall Road",
-        letAddress: "56/2 Spottiswoode Street",
-        postcode: "EH9 1DH",
+        landlordName: "Landlord 1",
+        homeAddress:"Home Address 1",
+        letAddress: "Let Address 1",
+        postcode: "Postcode 1",
         hmo: true,
         bedrooms: 4
       },
       {
-        landlordName: "Anna Maclean",
-        homeAddress:"16 Mortonhall Road",
-        letAddress: "16 Mortonhall Road",
-        postcode: "EH9 2HW",
+        landlordName: "Landlord 2",
+        homeAddress:"Home address 2",
+        letAddress: "Let address 2",
+        postcode: "Postcode 2",
         hmo: false,
         bedrooms: 4 
       }
