@@ -23,14 +23,16 @@ db.users.insertMany(
     ],
     properties: [
       {
-        landlord: "Mark Maclean",
+        landlordName: "Mark Maclean",
+        homeAddress:"16 Mortonhall Road",
         address: "56/2 Spottiswoode Street",
         postcode: "EH9 1DH",
         hmo: true,
         bedrooms: 4
       },
       {
-        landlord: "Anna Maclean",
+        landlordName: "Anna Maclean",
+        homeAddress:"16 Mortonhall Road",
         address: "16 Mortonhall Road",
         postcode: "EH9 2HW",
         hmo: false,
