@@ -10,11 +10,21 @@ function Homepage () {
 
   return (
     <>
-      <Header/>
-      <Body/>
-      <StudentSection/>
-      <LandlordSection/>
-      <Footer/>
+      <div>
+        <Header/>
+      </div>
+      <div>
+        <section>
+          <Body/>
+        </section>
+        <section>
+          <StudentSection/>
+          <LandlordSection/>
+        </section>
+      </div>
+      <div>
+        <Footer/>
+      </div>
     </>
   )
 }
